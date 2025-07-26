@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edited Frames</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="main-heading">EDITED FRAMES</h1>
+  </header>
+  <div class="tab-container">
+    <div class="tab-buttons">
+      <button class="tab-button active" onclick="openTab(event, 'galleryTab')">Gallery</button>
+    </div>
+    <div id="galleryTab" class="tab-content" style="display: block;">
+      <div class="gallery" id="gallery">
+        <!-- Preloaded images go here -->
+        <div class="image-card"><img src="images/sample1.jpg" alt="Sample Image 1"></div>
+        <div class="image-card"><img src="images/sample2.jpg" alt="Sample Image 2"></div>
+        <div class="image-card"><img src="images/sample3.jpg" alt="Sample Image 3"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
